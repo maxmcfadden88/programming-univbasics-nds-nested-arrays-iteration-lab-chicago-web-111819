@@ -1,15 +1,14 @@
-array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
+  result = []
 
-def join_ingredients(array_1)
-i = 0
-while i < array_1.length do
-inner = array_1[i]
-array_1<< "I love #{inner[0]} and #{inner[1]} on my pizza"
-i += 1
-end
-join_ingredients(array_1)
-end
+  i = 0
+  while i < src.length do
+    inner = src[i]
+    result << "I love #{inner[0]} and #{inner[1]} on my pizza"
+    i += 1
+  end
 
+  result
+end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
